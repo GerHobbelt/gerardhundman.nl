@@ -1,0 +1,3 @@
+[submodule "WordPress"]
+	path = WordPress
+	url = git@github.com:GerHobbelt/WordPress.git
