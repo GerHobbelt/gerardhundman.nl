@@ -1,0 +1,390 @@
+/***********************************************/
+/* x                                           */
+/***********************************************/
+/***********************************************/
+/* You'll need these 6 lines for Dreamweaver   */
+/***********************************************/ 
+
+/*
+ * Style sheet for the HTML 4.0 specification
+ *
+ * by Gerrit E.G. 'Insh_Allah' Hobbelt
+ */
+
+/*
+ * Netscape 'forgets' quite a few things (textcolor, etc.) when outside a <span> block:
+ * it looks like NE4 doesn't support <span> within <span>: as soon as the first </span> arrives
+ * everything is apparently reset to default (which is BLACK text) :-( bloody morons.
+ *
+ * Then there's the problem with NE4.5 and beyond: those happen not to understand the
+ * 'font-size' element but require 'fontsize' instead.
+ *
+ * Opera 3.60 doesn't seem to grasp the <span class="xxxx"> tag _outside_ <p>...</p> blocks.
+ * So .FinePrint should be implemented as <p class=FinePrint>...</p> to make 'em happy :-(
+ */
+
+/* <body bgcolor="#000000" text="#FFFF00" link="#00E2E2" vlink="#E200E2" alink="#E20000"> */
+body, p, dl, dt, dd, ul, ol, li, tr, td, th, hr
+{
+        background: white;             /* #000000 */
+
+        color: rgb(0,0,0);                  /* #FFFF00 */
+
+        /* sorry, chaps. Bobby wants quotes around these, but then it won't work for Netscape 4.72 no more.
+           :-( */
+        /* font-family: "Verdana, Lucida Sans, Arial, Helvetica, sans-serif"; */
+        font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+                
+        text-align: left;              
+}
+
+body, p
+{
+        /* margin-top: -20px;         */
+        /* margin-bottom: -20px;      */
+        /* margin-left: 5%;           */
+        /* margin-right: 5%;          */
+
+        margin-left: 3px;
+      	margin-right: 3px;
+      	margin-top: 3px;
+      	margin-bottom: 3px;
+
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 0px;
+        padding-right: 0px;
+}
+
+p
+{
+        text-align: left;
+}
+
+dl
+{
+} 
+
+dt
+{
+} 
+
+dd
+{
+} 
+
+
+ul
+{
+        list-style: disc;
+} 
+
+ol        
+{ 
+        list-style: upper-alpha outside;
+}
+
+ol ol
+{
+        list-style: decimal outside;
+}
+
+li
+{
+} 
+
+td
+{
+} 
+
+th
+{
+        text-align: left;              /* justify ? */
+        font-size: 11pt;
+        font-weight: bold;
+} 
+
+hr
+{
+        /* img src="./icons/line_bl_smll.gif" alt="----------------------------------------------------------" width="512" height="8 */
+} 
+
+
+
+/*
+   Read all about the next weird stuff 'decorated HR stuff' in:
+   
+        http://ppewww.ph.gla.ac.uk/~flavell/www/hrstyle.html
+   
+   HR's should look like these, using the styles defined below:
+   
+        <div style="text-align: center">
+        <div class="RdWide">
+        <hr class="RdWide">
+        </div></div>
+ */  
+
+
+
+
+
+a:link
+{
+        color: rgb(0, 5, 192); // rgb(115,255,250);  
+        text-decoration: none; 
+        background-color: transparent;
+}
+
+a:active
+{
+        color: rgb(0, 131, 192); // rgb(125,255,200);    
+        text-decoration: none; 
+        background-color: transparent;
+}
+
+a:visited
+{
+        color: rgb(185,0,192); // rgb(135,166,255);    
+        text-decoration: none; 
+        background-color: transparent;
+}
+
+a:hover
+{
+        color: rgb(0,172,192); // rgb(115,255,128);          
+        text-decoration: none; 
+        background-color: transparent;
+}
+
+em
+{
+        font-style: italic;
+}
+
+strong
+{
+        font-weight: bold;
+}
+
+small
+{
+        font-size: 9pt;
+}
+
+sup
+{
+        font-size: 9pt;
+      	vertical-align: super;
+}
+
+sub 
+{
+        font-size: 9pt;
+      	vertical-align: sub;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+        /*
+         * [i_a] each H1-6 must replicate the BODY definition for Netscape, or there's
+         * BLACK text on BLACK background. Very readable ;-)
+         */
+        background: white; 
+        color: rgb(0,0,0); 
+
+        text-align: center;
+
+        font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+        font-size: 20pt;
+}
+
+h2
+{
+        font-size: 18pt;
+}
+
+h3
+{
+        font-size: 16pt;
+}
+
+h4
+{
+        font-size: 14pt;
+}
+
+h5
+{
+        font-size: 12pt;
+}
+
+h6
+{
+        font-size: 12pt;
+}
+
+
+/* <table border=0 cellpadding=0 cellspacing=0 width="100%"> */
+table
+{
+        /*
+         * [i_a] each H1-6 must replicate the BODY definition for Netscape, or there's
+         * BLACK text on BLACK background. Very readable ;-)
+         */
+        background: white;             
+        color: rgb(0,0,0);       
+
+        text-align: left;
+
+        border-width: 0px;
+        border-top-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        
+        border-style: none;
+        
+        border-color: white;
+        
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        width: 100%;
+}
+
+
+/* opera 3.50 */
+dt, dd 
+{ 
+        margin-top: 0; 
+        margin-bottom: 0;
+}
+
+/*
+ * dt 
+ * { 
+ *   font-weight: bold;
+ * } 
+ */
+
+/*
+ * Netscape Navigator 4 fix: make sure sources and stuff (preformatted text) 
+ * is displayed as you might expect...
+ */
+pre 
+{ 
+        font-family: monospace;
+}
+
+
+
+/*
+ * I'm using hardcoded point sizes here instead of 'xx-small' etc. as Netscape & IE render 
+ * these names at different point sizes. Netscape renders xx-small too small to be readable anyhow. :-(
+ */
+ 
+.FinePrint, .CenteredFinePrint, .LargePrint, .CenteredLargePrint, .NormalPrint, .CenteredNormalPrint, .LabelPrint, .IsConstructedBy, .IsWrittenBy  
+{
+        background: white; 
+        color: rgb(0,0,0); 
+
+        font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+.FinePrint, .CenteredFinePrint
+{
+        font-size: 8pt; 
+}
+
+.CenteredFinePrint, .CenteredLargePrint, .CenteredNormalPrint
+{
+        text-align: center;
+}
+        
+.LargePrint, .CenteredLargePrint
+{
+        font-size: 16pt;
+}
+
+.NormalPrint, .CenteredNormalPrint
+{
+        font-size: 10pt;
+}
+
+.text
+{
+        background: white; 
+        color: rgb(0,0,0); 
+
+        font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+
+        font-size: 10pt;
+                
+        text-align: left;              /* justify ? */
+} 
+
+.LabelPrint
+{
+        font-size: 14pt; 
+}
+
+.IsConstructedBy 
+{
+        font-size: 16pt; 
+}
+
+.IsWrittenBy 
+{
+        font-size: 14pt; 
+        text-align: center;
+        font-style: italic;
+}
+
+.left
+{
+        text-align: left;
+}
+
+.center
+{
+        text-align: center;
+}
+
+/*
+ * [i_a] IE4 doesn't support 'justify' it seems... so we introduce different definitions:
+ * each browser will take what it can handle.
+ *
+ * </P> tag should be located following an additional 'space' to prevent 'justify' 
+ * from justifying the last line too :-( Same applies for </td> et al.
+ */
+.just
+{
+        /* for those that do not know 'justify' */
+        text-align: left;
+}
+
+.just
+{
+        text-align: justify;
+}
+
+
+
+
+
+

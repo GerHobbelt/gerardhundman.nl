@@ -1,0 +1,6 @@
+# robots.txt for http://www.peins.net/
+
+# User-agent: *
+# Disallow: 
+# Everything may be grabbed
+
