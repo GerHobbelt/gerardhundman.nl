@@ -1,3 +1,39 @@
 [submodule "WordPress"]
 	path = WordPress
 	url = git@github.com:GerHobbelt/WordPress.git
+[submodule "dev/js/d3"]
+	path = dev/js/d3
+	url = git@github.com:GerHobbelt/d3.git
+[submodule "dev/js/d3-plugins"]
+	path = dev/js/d3-plugins
+	url = git@github.com:GerHobbelt/d3-plugins.git
+[submodule "dev/js/d3-bootstrap-plugins"]
+	path = dev/js/d3-bootstrap-plugins
+	url = git@github.com:GerHobbelt/d3-bootstrap-plugins.git
+[submodule "dev/css/Font-Awesome"]
+	path = dev/css/Font-Awesome
+	url = git@github.com:GerHobbelt/Font-Awesome.git
+[submodule "dev/css/bootstrap"]
+	path = dev/css/bootstrap
+	url = git@github.com:GerHobbelt/bootstrap.git
+[submodule "dev/html/bootstrap-university"]
+	path = dev/html/bootstrap-university
+	url = git@github.com:GerHobbelt/bootstrap-university.git
+[submodule "dev/js/mootools-bootstrap"]
+	path = dev/js/mootools-bootstrap
+	url = git@github.com:GerHobbelt/mootools-bootstrap.git
+[submodule "dev/wordpress-themes/bones"]
+	path = dev/wordpress-themes/bones
+	url = git@github.com:GerHobbelt/bones.git
+[submodule "dev/wordpress-themes/wordpress-bootstrap"]
+	path = dev/wordpress-themes/wordpress-bootstrap
+	url = git@github.com:GerHobbelt/wordpress-bootstrap.git
+[submodule "dev/css/bootstrap-editable"]
+	path = dev/css/bootstrap-editable
+	url = git@github.com:GerHobbelt/bootstrap-editable.git
+[submodule "dev/mongoose"]
+	path = dev/mongoose
+	url = git@github.com:GerHobbelt/mongoose.git
+[submodule "dev/js/video-js"]
+	path = dev/js/video-js
+	url = git@github.com:GerHobbelt/video-js.git
